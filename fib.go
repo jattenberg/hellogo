@@ -8,7 +8,7 @@ import (
 )
 
 func usage() {
-     fmt.Fprintf(os.Stderr, "usage: hello [name]\n")
+     fmt.Fprintf(os.Stderr, "usage: fib [number]\n")
      flag.PrintDefaults()
      os.Exit(2)
 }
